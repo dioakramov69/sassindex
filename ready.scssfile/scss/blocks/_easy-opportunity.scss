@@ -1,0 +1,170 @@
+.easy-opportunity-wrapper {
+  width: 445px;
+}
+
+.easy-opportunity-section {
+  background-image: url(../../images/pre-oval.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 220px;
+}
+
+.easy-opportunity-title {
+  color: #495567;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+
+.easy-opportunity-text {
+  color: #939CAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.Learn-more-button {
+  margin-top: 40px;
+  padding: 14px 44px;
+  background-color: $main-yellow-color;
+  color: $main-white;
+}
+
+.Learn-more-button:hover {
+  border: 3px solid #FCB72B;
+  background-color: $main-white;
+  color: $main-yellow-color;
+  transition: 1s ease;
+}
+
+.opportunity-container {
+  background-image: url(../../images/boywith-phone.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-bottom: 150px;
+}
+
+.arrow-yellow-left {
+  position: absolute;
+  right: 0px;
+  bottom: 230px;
+}
+
+.boys-arrow {
+  display: none;
+}
+
+@media only screen and (max-width: 895px) {
+  .easy-opportunity-wrapper {
+    padding-top: 550px;
+  }
+
+  .opportunity-container {
+    background-position: top center;
+  }
+
+  .easy-opportunity-section {
+    background-position: top 150px right;
+  }
+
+  .arrow-yellow-left {
+    top: 280px;
+  }
+
+  .easy-opportunity-wrapper {
+    margin: 0 auto;
+  }
+
+  .easy-opportunity-title {
+    color: #495567;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+
+  .easy-opportunity-text {
+    width: 480px;
+    color: #939CAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .Learn-more-button {
+    color: $main-white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 180px;
+    height: 53px;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .opportunity-container {
+    background-size: 300px;
+    background-position: top center;
+  }
+
+  .easy-opportunity-wrapper {
+    padding-top: 350px;
+    margin: 0 auto;
+  }
+
+  .easy-opportunity-section {
+    background-image: none;
+    position: relative;
+  }
+
+  .arrow-yellow-left {
+    display: none;
+  }
+
+  .easy-opportunity-title {
+    color: #495567;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+    width: 311px;
+    text-align: center;
+  }
+
+  .easy-opportunity-text {
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 311px;
+    text-align: center;
+  }
+
+  .Learn-more-button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .boys-arrow {
+    position: absolute;
+    top: 150px;
+  }
+
+}

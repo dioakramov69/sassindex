@@ -1,0 +1,166 @@
+.money-title {
+  color: #495567;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+
+.money-text {
+  color: #939CAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 44px;
+}
+
+.money-link {
+  padding: 14px 44px;
+  background-color: $main-yellow-color;
+  color: $main-white;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.money-link:hover {
+  background-color: $main-white;
+  color: $main-yellow-color;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: 3px solid $main-yellow-color;
+  transition: 1s ease;
+}
+
+.money-all-text-wrapper {
+  width: 445px;
+}
+
+.money_container {
+  background-image: url(../../images/police-image.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.money-section {
+  background-image: url(../../images/pre-oval.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: relative;
+}
+
+.police-arrow {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 917px) {
+  .money-all-text-wrapper {
+    padding-top: 490px;
+    margin: 0 auto;
+  }
+
+  .money_container {
+    background-position: top center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .money-section {
+    background-position: top right;
+  }
+
+  .money-title {
+    color: #495567;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+
+  .money-text {
+    color: $main-silver;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .money-link {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    display: flex;
+    width: 180px;
+    height: 53px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .money-section {
+    background-image: none;
+  }
+
+  .money_container {
+    background-size: 300px;
+    background-position: top center;
+  }
+
+  .money-all-text-wrapper {
+    padding-top: 350px;
+  }
+
+  .money-title {
+    color: #495567;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+    width: 311px;
+  }
+
+  .money-text {
+    color: #939CAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 311px;
+  }
+
+  .money-link {
+    text-align: center;
+  }
+
+  .mobile-police-arrow {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+
+  .police-arrow {
+    display: none;
+  }
+}

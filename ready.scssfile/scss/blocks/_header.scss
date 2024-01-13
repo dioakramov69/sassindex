@@ -1,0 +1,90 @@
+.scoot-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.scoot_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-scoot {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-left: 58px;
+}
+
+.list-card {
+  color: #939CAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.list-card:hover {
+  color: $main-yellow-color;
+  cursor: pointer;
+}
+
+.site-pages-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.scootin-link {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 14px 39px;
+  background-color: $main-yellow-color;
+  border: none;
+}
+
+.scootin-link:hover {
+  border: 3px solid $main-yellow-color;
+  background-color: $main-white;
+  color: #FCB72B;
+  cursor: pointer;
+}
+
+.scootin-link-a {
+  color: $main-white;
+}
+
+.scootin-link-a:hover {
+  color: $main-yellow-color;
+}
+
+.details-menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 612px) {
+  .list-scoot {
+    display: none;
+  }
+
+  .scootin-link {
+    display: none;
+  }
+
+  .details-menu-icon {
+    display: inline;
+  }
+
+  .site-logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .scooter-img-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+  }
+
+}

@@ -1,0 +1,139 @@
+.sign-up-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #495567;
+  background-image: url(../../images/circles.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.sign-up-title {
+  width: 415px;
+  color: $main-white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+
+.apple-wrapper {
+  border-radius: 4px;
+  background: #E5ECF4;
+  display: flex;
+  gap: 10px;
+  width: 159px;
+  height: 56px;
+}
+
+.apple-text-wrapper {
+  padding-top: 6px;
+  padding-right: 3px;
+}
+
+.apple-text {
+  color: #495567;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.446px;
+}
+
+.apple-app {
+  color: #495567;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.893px;
+}
+
+.iphone-logo {
+  padding-top: 2px;
+  padding-left: 3px;
+}
+
+.play-market-wrapper {
+  border-radius: 4px;
+  background: #E5ECF4;
+  width: 182px;
+  height: 56px;
+  display: flex;
+  width: 182px;
+  height: 56px;
+  gap: 10px;
+}
+
+.p-market-text {
+  color: #495567;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.446px;
+}
+
+.google-play-text {
+  color: #495567;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.893px;
+}
+
+.play-market-text-wrapper {
+  padding-top: 6px;
+  padding-right: 3px;
+}
+
+.google-play-logo {
+  padding-top: 2px;
+  padding-left: 3px;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 816px) {
+  .sign-up-container {
+    display: block;
+  }
+
+  .sign-up-title {
+    margin: 0 auto;
+  }
+
+  .app-wrapper {
+    padding-top: 40px;
+    display: flex;
+  }
+
+  .app-wrapper {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .sign-up-title {
+    color: $main-white;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+    width: 311px;
+  }
+}
